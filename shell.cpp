@@ -53,7 +53,7 @@ int main()
 	{
 		//printf("child\n");
 		char *const paramList[] = {"", NULL};
-		execv(trimwhitespace(input), paramList);
+		execvp(trimwhitespace(input), paramList);
 		fflush(NULL);
 	}
 
