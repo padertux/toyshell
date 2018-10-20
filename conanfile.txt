@@ -1,0 +1,5 @@
+[requires]
+readline/0.1@demo/testing
+
+[generators]
+cmake
