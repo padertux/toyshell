@@ -1,5 +1,5 @@
-all: shell.cpp
-	g++ -o toyshell shell.cpp -lreadline 
+all: toyshell.cpp
+	g++ -o toyshell toyshell.cpp -lreadline
 
 clean:
 	rm toyshell
